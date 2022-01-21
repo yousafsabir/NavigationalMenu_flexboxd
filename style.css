@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  margin: 0 auto;
+  /*         |x-offset| |y-offset| |blur-radius| |color|*/
+  box-shadow: 0 2px 5px grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-flex {
+  /* outline: 1px solid grey; */
+  flex-basis: 40%;
+}
+
+nav {
+  /* outline: 1px solid grey; */
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
