@@ -17,18 +17,19 @@ header {
 
 .logo-flex {
   /* outline: 1px solid grey; */
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 
 nav {
   /* outline: 1px solid grey; */
-  flex-basis: 60%;
+  flex-basis: 50%;
   display: flex;
   justify-content: space-around;
 }
 
 .logo {
   width: 80px;
+  margin-left: 15px;
 }
 
 nav a {
