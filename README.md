@@ -1,0 +1,1 @@
+this is a simple navigation menu at the top, containing website logo on the left and some nav items on the right side and also a shadow down to separate nav from website below. Flexbox-DevDreamer
